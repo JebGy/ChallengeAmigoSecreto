@@ -186,7 +186,7 @@ ul {
     .button-container {
         width: 100%;
         padding: 0 10px;
-        flex-direction: row;
+        flex-direction: column;
         gap: 1rem;
     }
 
