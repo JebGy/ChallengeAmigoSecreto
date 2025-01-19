@@ -169,6 +169,7 @@ ul {
 .button-draw-nuevo {
     display: flex;
     align-items: center;
+
     text-align: center;
     padding: 10px 40px;
     color: var(--color-text);
@@ -181,6 +182,18 @@ ul {
 }
 
 @media (max-width: 768px) {
+
+    .button-container {
+        width: 100%;
+        padding: 0 10px;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
 
     #amigo-secreto-imagen {
         width: 150px;
